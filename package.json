@@ -1,0 +1,32 @@
+{
+  "name": "myAAAAAA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine spec/*.js",
+    "start": "node server.js",
+    "testing": "karma start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sakuraapi/api": "^0.7.0-7",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jasmine": "^2.6.0",
+    "mongoose": "^4.11.4",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.6.4",
+    "jasmine-node": "^1.14.5",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
